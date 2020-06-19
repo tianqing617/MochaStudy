@@ -1,0 +1,177 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-06-19T06:42:12.138Z",
+    "end": "2020-06-19T06:42:12.158Z",
+    "duration": 20,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "796bcbeb-0fde-474a-9e63-91e26d7234e2",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "134b2216-06cd-42be-a418-50610040f1fa",
+          "title": "add function test",
+          "fullFile": "F:\\github\\MochaStudy\\test\\add.test.js",
+          "file": "\\test\\add.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "1 + 1 = 2",
+              "fullTitle": "add function test 1 + 1 = 2",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(add(1, 1)).to.be.equal(2);",
+              "err": {},
+              "uuid": "886eafd0-eac2-4648-b68c-65da69ae460e",
+              "parentUUID": "134b2216-06cd-42be-a418-50610040f1fa",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "100 + 1000",
+              "fullTitle": "add function test 100 + 1000",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// to.equal 等同于 to.be.equal\nexpect(add(100, 1000)).to.equal(1100);",
+              "err": {},
+              "uuid": "fdee9c0c-d56c-4620-8b48-718223faf51c",
+              "parentUUID": "134b2216-06cd-42be-a418-50610040f1fa",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "886eafd0-eac2-4648-b68c-65da69ae460e",
+            "fdee9c0c-d56c-4620-8b48-718223faf51c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "850e014d-1615-4362-8d34-e10e3e007851",
+          "title": "Array",
+          "fullFile": "F:\\github\\MochaStudy\\test\\demo.test.js",
+          "file": "\\test\\demo.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "9be5696f-9f92-4454-abb5-68b061f6e4a9",
+              "title": "#indexOf()",
+              "fullFile": "F:\\github\\MochaStudy\\test\\demo.test.js",
+              "file": "\\test\\demo.test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return -1 when the value is not present",
+                  "fullTitle": "Array #indexOf() should return -1 when the value is not present",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.equal([1, 2, 3].indexOf(4), -1);",
+                  "err": {},
+                  "uuid": "d0bdd9bd-1772-4fb1-9509-8964255b2892",
+                  "parentUUID": "9be5696f-9f92-4454-abb5-68b061f6e4a9",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "d0bdd9bd-1772-4fb1-9509-8964255b2892"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}
